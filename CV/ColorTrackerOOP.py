@@ -11,6 +11,11 @@ class ColorTracker():
         self.LOWER_BLUE = np.array([100, 100, 50])
         self.UPPER_BLUE = np.array([130, 255, 255])
 
+        self.LOWER_RED1 = np.array([0, 50, 50])
+        self.UPPER_RED1 = np.array([10, 255, 255])
+        self.LOWER_RED2 = np.array([170, 50, 50])
+        self.UPPER_RED2 = np.array([179, 255, 255])
+
         self.kernel = np.ones((5, 5), np.uint8)
         self.min_area = 1000  
 
@@ -57,11 +62,13 @@ class ColorTracker():
             hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV) 
 
             mask_blue = cv2.inRange(hsv,self.LOWER_BLUE,self.UPPER_BLUE)
+            mask_red = (cv2.inRange(hsv,self.UPPER_RED1,self.LOWER_RED1) | cv2.inRange(hsv,self.self.UPPER_RED2,self.self.LOWER_RED2))
 
-            centroid, cleaned_mask = self.process_mask(mask_blue, frame)
+            __, cleaned_mask1 = self.process_mask(mask_blue, frame)
+            __, cleaned_mask2 = self.process_mask(mask_red, frame)
 
             cv2.imshow('Subtask 2 - Shape Detector', frame)
-            cv2.imshow('Mask Feed', cleaned_mask)
+            cv2.imshow('Mask Feed', cleaned_mask1)
 
             if cv2.waitKey(1) == 27:
                 break
