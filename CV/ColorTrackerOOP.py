@@ -4,7 +4,6 @@ import numpy as np
 class ColorTracker():
 
     def __init__(self):
-
         self.video_path = 0
         self.cap = cv2.VideoCapture(self.video_path)
 
@@ -22,7 +21,6 @@ class ColorTracker():
 
     def process_mask(self, mask, frame):
 
-        
         mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, self.kernel)
         mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, self.kernel)
 
@@ -44,33 +42,35 @@ class ColorTracker():
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
         return detected_centroids, mask
-            
 
 
     def run_tracker(self):
-
         if not self.cap.isOpened():
-            print('Error camera couldn\'t open')
+            print("Error: Camera couldn't be opened.")
             return
 
         while True:
-
             ret, frame = self.cap.read()
             if not ret:
-                return
+                break
+
             blur = cv2.GaussianBlur(frame, (5, 5), 0)
             hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV) 
 
-            mask_blue = cv2.inRange(hsv,self.LOWER_BLUE,self.UPPER_BLUE)
-            mask_red = (cv2.inRange(hsv,self.UPPER_RED1,self.LOWER_RED1) | cv2.inRange(hsv,self.self.UPPER_RED2,self.self.LOWER_RED2))
+            mask_blue = cv2.inRange(hsv, self.LOWER_BLUE, self.UPPER_BLUE)
+            
+            mask_red1 = cv2.inRange(hsv, self.LOWER_RED1, self.UPPER_RED1)
+            mask_red2 = cv2.inRange(hsv, self.LOWER_RED2, self.UPPER_RED2)
+            mask_red = cv2.bitwise_or(mask_red1, mask_red2)
 
-            __, cleaned_mask1 = self.process_mask(mask_blue, frame)
-            __, cleaned_mask2 = self.process_mask(mask_red, frame)
+            _, cleaned_mask1 = self.process_mask(mask_blue, frame)
+            _, cleaned_mask2 = self.process_mask(mask_red, frame)
 
             cv2.imshow('Subtask 2 - Shape Detector', frame)
-            cv2.imshow('Mask Feed', cleaned_mask1)
+            cv2.imshow('Mask Feed (Blue)', cleaned_mask1)
+            cv2.imshow('Mask 2 Feed (Red)', cleaned_mask2)
 
-            if cv2.waitKey(1) == 27:
+            if cv2.waitKey(1) & 0xFF == 27:
                 break
 
         self.cap.release()
