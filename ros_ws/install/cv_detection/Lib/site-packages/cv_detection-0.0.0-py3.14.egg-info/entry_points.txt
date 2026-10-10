@@ -1,0 +1,2 @@
+[console_scripts]
+cv_node = cv_detection.cv_node:main

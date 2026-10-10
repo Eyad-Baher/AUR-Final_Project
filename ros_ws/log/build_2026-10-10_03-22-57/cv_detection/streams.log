@@ -1,0 +1,40 @@
+[5.381s] Invoking command in 'C:\ros_ws\src\cv_detection': PIXI_PROMPT=(ros_ws) PYTHONPATH=C:\ros_ws\build\cv_detection\prefix_override;C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\ros_ws\install\cv_detection\Lib\site-packages;%PYTHONPATH% C:\ros_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ..\..\build\cv_detection build --build-base C:\ros_ws\build\cv_detection\build install --record C:\ros_ws\build\cv_detection\install.log --install-scripts $base/lib/cv_detection --single-version-externally-managed install_data
+[6.213s] running egg_info
+[6.268s] creating ..\..\build\cv_detection\cv_detection.egg-info
+[6.281s] writing ..\..\build\cv_detection\cv_detection.egg-info\PKG-INFO
+[6.281s] writing dependency_links to ..\..\build\cv_detection\cv_detection.egg-info\dependency_links.txt
+[6.281s] writing entry points to ..\..\build\cv_detection\cv_detection.egg-info\entry_points.txt
+[6.282s] writing requirements to ..\..\build\cv_detection\cv_detection.egg-info\requires.txt
+[6.283s] writing top-level names to ..\..\build\cv_detection\cv_detection.egg-info\top_level.txt
+[6.284s] writing manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+[6.417s] reading manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+[6.418s] writing manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+[6.418s] running build
+[6.418s] running build_py
+[6.418s] creating C:\ros_ws\build\cv_detection\build\lib\cv_detection
+[6.418s] copying cv_detection\colour_detector_oop.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+[6.418s] copying cv_detection\cv_node.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+[6.419s] copying cv_detection\qr_detector_oop.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+[6.419s] copying cv_detection\__init__.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+[6.420s] running install
+[6.422s] running install_lib
+[6.480s] creating C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+[6.481s] copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\colour_detector_oop.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+[6.495s] copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\cv_node.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+[6.498s] copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\qr_detector_oop.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+[6.501s] copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\__init__.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+[6.504s] byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\colour_detector_oop.py to colour_detector_oop.cpython-314.pyc
+[6.509s] byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\cv_node.py to cv_node.cpython-314.pyc
+[6.513s] byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\qr_detector_oop.py to qr_detector_oop.cpython-314.pyc
+[6.517s] byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\__init__.py to __init__.cpython-314.pyc
+[6.519s] running install_data
+[6.520s] creating C:\ros_ws\install\cv_detection\share\ament_index\resource_index\packages
+[6.521s] copying resource\cv_detection -> C:\ros_ws\install\cv_detection\share\ament_index\resource_index\packages
+[6.523s] copying package.xml -> C:\ros_ws\install\cv_detection\share\cv_detection
+[6.524s] running install_egg_info
+[6.584s] Copying ..\..\build\cv_detection\cv_detection.egg-info to C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection-0.0.0-py3.14.egg-info
+[6.636s] running install_scripts
+[6.976s] Installing cv_node-script.py script to C:\ros_ws\install\cv_detection\lib\cv_detection
+[7.000s] Installing cv_node.exe script to C:\ros_ws\install\cv_detection\lib\cv_detection
+[7.002s] writing list of installed files to 'C:\ros_ws\build\cv_detection\install.log'
+[7.056s] Invoked command in 'C:\ros_ws\src\cv_detection' returned '0': PIXI_PROMPT=(ros_ws) PYTHONPATH=C:\ros_ws\build\cv_detection\prefix_override;C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\ros_ws\install\cv_detection\Lib\site-packages;%PYTHONPATH% C:\ros_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ..\..\build\cv_detection build --build-base C:\ros_ws\build\cv_detection\build install --record C:\ros_ws\build\cv_detection\install.log --install-scripts $base/lib/cv_detection --single-version-externally-managed install_data

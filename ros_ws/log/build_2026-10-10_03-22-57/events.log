@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000801] (cv_detection) JobQueued: {'identifier': 'cv_detection', 'dependencies': OrderedDict()}
+[0.002381] (cv_detection) JobStarted: {'identifier': 'cv_detection'}
+[0.099362] (-) TimerEvent: {}
+[0.209457] (-) TimerEvent: {}
+[0.319650] (-) TimerEvent: {}
+[0.428006] (-) TimerEvent: {}
+[0.553845] (-) TimerEvent: {}
+[0.656468] (-) TimerEvent: {}
+[0.766452] (-) TimerEvent: {}
+[0.867854] (-) TimerEvent: {}
+[0.969711] (-) TimerEvent: {}
+[1.075596] (-) TimerEvent: {}
+[1.179886] (-) TimerEvent: {}
+[1.287107] (-) TimerEvent: {}
+[1.402719] (-) TimerEvent: {}
+[1.506373] (-) TimerEvent: {}
+[1.616826] (-) TimerEvent: {}
+[1.722505] (-) TimerEvent: {}
+[1.830558] (-) TimerEvent: {}
+[1.935044] (-) TimerEvent: {}
+[2.045744] (-) TimerEvent: {}
+[2.155084] (-) TimerEvent: {}
+[2.264057] (-) TimerEvent: {}
+[2.376693] (-) TimerEvent: {}
+[2.477899] (-) TimerEvent: {}
+[2.586311] (-) TimerEvent: {}
+[2.693806] (-) TimerEvent: {}
+[2.802049] (-) TimerEvent: {}
+[2.905697] (-) TimerEvent: {}
+[3.021042] (-) TimerEvent: {}
+[3.128227] (-) TimerEvent: {}
+[3.236663] (-) TimerEvent: {}
+[3.344722] (-) TimerEvent: {}
+[3.452987] (-) TimerEvent: {}
+[3.559476] (-) TimerEvent: {}
+[3.667607] (-) TimerEvent: {}
+[3.773297] (-) TimerEvent: {}
+[3.888719] (-) TimerEvent: {}
+[3.991429] (-) TimerEvent: {}
+[4.102118] (-) TimerEvent: {}
+[4.209188] (-) TimerEvent: {}
+[4.318698] (-) TimerEvent: {}
+[4.419464] (-) TimerEvent: {}
+[4.541371] (-) TimerEvent: {}
+[4.656001] (-) TimerEvent: {}
+[4.758801] (-) TimerEvent: {}
+[4.874982] (-) TimerEvent: {}
+[4.986204] (-) TimerEvent: {}
+[5.087773] (-) TimerEvent: {}
+[5.197812] (-) TimerEvent: {}
+[5.302864] (-) TimerEvent: {}
+[5.367797] (cv_detection) Command: {'cmd': ['C:\\ros_ws\\.pixi\\envs\\default\\python.exe', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '..\\..\\build\\cv_detection', 'build', '--build-base', 'C:\\ros_ws\\build\\cv_detection\\build', 'install', '--record', 'C:\\ros_ws\\build\\cv_detection\\install.log', '--install-scripts', '$base/lib/cv_detection', '--single-version-externally-managed', 'install_data'], 'cwd': 'C:\\ros_ws\\src\\cv_detection', 'env': {'CMAKE_GENERATOR_TOOLSET': 'v143', 'XML_CATALOG_FILES': 'file:///C:/ros_ws/.pixi/envs/default/etc/xml/catalog', 'OS': 'Windows_NT', 'TMP': 'C:\\Users\\HP\\AppData\\Local\\Temp', 'CMAKE_GENERATOR_PLATFORM': 'x64', 'PSModulePath': 'C:\\Users\\HP\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules', 'EFC_7848_1262719628': '1', 'VS_MAJOR': '17', 'NEWER_VS_WITH_OLDER_VC': '0', '__CONDA_OPENSSL_CERT_DIR_SET': '1', 'AMENT_PREFIX_PATH': 'C:\\ros_ws\\.pixi\\envs\\default\\Library', 'ProgramData': 'C:\\ProgramData', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'COPILOT_DEBUG_NONCE': 'deee8b9beec6374cc8efeb0679cc6ec8', 'MESON_ARGS': '-Dbuildtype=release', 'ComSpec': 'C:\\Windows\\system32\\cmd.exe', 'QT_PLUGIN_PATH': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\plugins', 'SSL_CERT_DIR': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\ssl\\certs', 'FFLAGS': '-D_CRT_SECURE_NO_WARNINGS -fms-runtime-lib=dll -fuse-ld=lld -IC:\\ros_ws\\.pixi\\envs\\default\\Library\\include', 'INCLUDE': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\include;', 'USE_NEW_CMAKE_GEN_SYNTAX': '1', 'CC': 'cl.exe', 'NUMBER_OF_PROCESSORS': '12', 'LD': 'lld-link.exe', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'LDFLAGS': ' -Wl,-defaultlib:C:/ros_ws/.pixi/envs/default/lib/clang/19/lib/windows/clang_rt.builtins-x86_64.lib', 'VSCODE_INJECTION': '1', 'ProgramW6432': 'C:\\Program Files', 'PIXI_ENVIRONMENT_NAME': 'default', 'SSL_CERT_FILE': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\ssl\\cacert.pem', 'TERM_PROGRAM': 'vscode', 'PROCESSOR_LEVEL': '6', 'VSCODE_GIT_ASKPASS_MAIN': 'c:\\Users\\HP\\AppData\\Roaming\\Code\\User\\globalStorage\\vscode.git\\askpass\\70789581cae28aa7\\askpass-main.js', 'EFC_7848_3789132940': '1', 'PKG_CONFIG_PATH': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\lib\\pkgconfig;', 'SESSIONNAME': 'Console', 'LANG': 'en_US.UTF-8', 'MSSdk': '1', 'CONDA_SHLVL': '1', 'COMPUTERNAME': 'DESKTOP-8N5TK7C', 'PYTHONSTARTUP': 'c:\\Users\\HP\\AppData\\Roaming\\Code\\User\\workspaceStorage\\601039e2389966c0e3e25b32933d86ca\\ms-python.python\\pythonrc.py', 'CMAKE_PLAT': 'x64', 'EFC_7848_4126798990': '1', 'TERM_PROGRAM_VERSION': '1.141.0', 'AR': 'llvm-ar.exe', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'VS_VERSION': '17.0', 'PIXI_IN_SHELL': '1', 'CONDA_PREFIX': 'C:\\ros_ws\\.pixi\\envs\\default', 'VSCODE_GIT_ASKPASS_NODE': 'C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe', 'GIT_ASKPASS': 'c:\\Users\\HP\\AppData\\Roaming\\Code\\User\\globalStorage\\vscode.git\\askpass\\70789581cae28aa7\\askpass.sh', 'EFC_7848_2283032206': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'PY_VCRUNTIME_REDIST': '\\bin\\vcruntime140.dll', 'CMAKE_PREFIX_PATH': 'C:\\ros_ws\\.pixi\\envs\\default\\Library;', 'ROS_PYTHON_VERSION': '3', 'PIXI_EXE': 'C:\\Users\\HP\\.pixi\\bin\\pixi.exe', 'HOMEDRIVE': 'C:', 'PIXI_PROMPT': '(ros_ws)', 'CMAKE_GENERATOR': 'Visual Studio 17 2022', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'CHROME_CRASHPAD_PIPE_NAME': '\\\\.\\pipe\\crashpad_18020_AAAPKCRSVSEINCJI', 'LIB': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\lib;', 'ROS_LOCALHOST_ONLY': '0', 'PUBLIC': 'C:\\Users\\Public', 'MSYS2_ARG_CONV_EXCL': '/AI;/AL;/OUT;/out', 'ament_python_executable': 'C:\\ros_ws\\.pixi\\envs\\default\\python.exe', 'windir': 'C:\\Windows', 'COLCON': '1', 'PROJ_DATA': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\share\\proj', 'PIXI_ENVIRONMENT_PLATFORMS': 'win-64', 'ROS_VERSION': '2', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 165 Stepping 2, GenuineIntel', 'PIXI_PROJECT_VERSION': 'NO_VERSION_SPECIFIED', 'APPDATA': 'C:\\Users\\HP\\AppData\\Roaming', 'HOMEPATH': '\\Users\\HP', 'Path': 'C:\\ros_ws\\.pixi\\envs\\default;C:\\ros_ws\\.pixi\\envs\\default\\Library\\bin;C:\\ros_ws\\.pixi\\envs\\default\\Scripts;C:\\ros_ws\\.pixi\\envs\\default\\bin;C:\\ros_ws\\.pixi\\envs\\default\\Library\\opt\\rviz_ogre_vendor\\bin;C:\\ros_ws\\.pixi\\envs\\default\\Library\\bin;C:\\ros_ws\\.pixi\\envs\\default;C:\\ros_ws\\.pixi\\envs\\default\\Library/mingw-w64/bin;C:\\ros_ws\\.pixi\\envs\\default\\Library/usr/bin;C:\\ros_ws\\.pixi\\envs\\default\\Library/bin;C:\\ros_ws\\.pixi\\envs\\default\\Scripts;C:\\ros_ws\\.pixi\\envs\\default\\bin;c:\\Users\\HP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;c:\\Users\\HP\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313;C:\\Users\\HP\\.pixi\\bin;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python314\\;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\;C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\;C:\\Users\\HP\\.local\\bin;C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HP\\AppData\\Local\\Python\\bin;C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;;C:\\intelFPGA\\20.1\\modelsim_ase\\win32aloem', 'VSCODE_GIT_IPC_HANDLE': '\\\\.\\pipe\\vscode-git-196076c236-sock', 'SystemDrive': 'C:', 'CONDA_DEFAULT_ENV': 'ros_ws', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL', 'LOCALAPPDATA': 'C:\\Users\\HP\\AppData\\Local', 'CMAKE_GEN': 'Visual Studio 17 2022', '__CONDA_OPENSSL_CERT_FILE_SET': '1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'EFC_7848_1592913036': '1', 'ZES_ENABLE_SYSMAN': '1', 'VCVARSBAT': '64', 'ROS_OS_OVERRIDE': 'conda:win64', 'CONDA_BUILD_CROSS_COMPILATION': '0', 'PYTHONPATH': 'C:\\ros_ws\\build\\cv_detection\\prefix_override;C:\\ros_ws\\.pixi\\envs\\default\\Lib\\site-packages\\colcon_core\\task\\python\\colcon_distutils_commands;C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages;C:\\ros_ws\\.pixi\\envs\\default\\Library\\lib/site-packages;C:\\ros_ws\\.pixi\\envs\\default\\Library\\..\\Lib\\site-packages', 'COLCON_CURRENT_PREFIX': 'C:\\ros_ws\\install', 'FC': 'flang-new', 'OneDrive': 'C:\\Users\\HP\\OneDrive', 'PIXI_PROJECT_ROOT': 'C:\\ros_ws', 'VS_YEAR': '2022', 'USERNAME': 'HP', 'CMAKE_ARGS': '-DCMAKE_BUILD_TYPE=Release', 'VSINSTALLDIR': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\Enterprise\\', 'ProgramFiles': 'C:\\Program Files', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'LOGONSERVER': '\\\\DESKTOP-8N5TK7C', 'PROCESSOR_REVISION': 'a502', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'EFC_7848_2775293581': '1', 'DISTUTILS_USE_SDK': '1', 'ROS_DISTRO': 'humble', 'USERDOMAIN': 'DESKTOP-8N5TK7C', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\HP\\AppData\\Local\\Temp', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'ROS_ETC_DIR': 'C:\\ros_ws\\.pixi\\envs\\default\\Library\\etc\\ros', 'USERPROFILE': 'C:\\Users\\HP', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'PIXI_PROJECT_MANIFEST': 'C:\\ros_ws\\pixi.toml', 'COLORTERM': 'truecolor', 'MSYS2_ENV_CONV_EXCL': 'CL', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-8N5TK7C', 'CXX': 'cl.exe', 'SystemRoot': 'C:\\Windows', 'PROJ_NETWORK': 'ON', 'NIEXTCCOMPILERSUPP': 'C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\', 'PIXI_PROJECT_NAME': 'ros_ws'}, 'shell': False}
+[5.409111] (-) TimerEvent: {}
+[5.517473] (-) TimerEvent: {}
+[5.623440] (-) TimerEvent: {}
+[5.731369] (-) TimerEvent: {}
+[5.834239] (-) TimerEvent: {}
+[5.935072] (-) TimerEvent: {}
+[6.039494] (-) TimerEvent: {}
+[6.141868] (-) TimerEvent: {}
+[6.214875] (cv_detection) StdoutLine: {'line': b'running egg_info\r\n'}
+[6.249288] (-) TimerEvent: {}
+[6.270370] (cv_detection) StdoutLine: {'line': b'creating ..\\..\\build\\cv_detection\\cv_detection.egg-info\r\n'}
+[6.283110] (cv_detection) StdoutLine: {'line': b'writing ..\\..\\build\\cv_detection\\cv_detection.egg-info\\PKG-INFO\r\n'}
+[6.283457] (cv_detection) StdoutLine: {'line': b'writing dependency_links to ..\\..\\build\\cv_detection\\cv_detection.egg-info\\dependency_links.txt\r\n'}
+[6.283661] (cv_detection) StdoutLine: {'line': b'writing entry points to ..\\..\\build\\cv_detection\\cv_detection.egg-info\\entry_points.txt\r\n'}
+[6.284268] (cv_detection) StdoutLine: {'line': b'writing requirements to ..\\..\\build\\cv_detection\\cv_detection.egg-info\\requires.txt\r\n'}
+[6.285067] (cv_detection) StdoutLine: {'line': b'writing top-level names to ..\\..\\build\\cv_detection\\cv_detection.egg-info\\top_level.txt\r\n'}
+[6.286160] (cv_detection) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\cv_detection\\cv_detection.egg-info\\SOURCES.txt'\r\n"}
+[6.367880] (-) TimerEvent: {}
+[6.400594] (cv_detection) StdoutLine: {'line': b"reading manifest file '..\\..\\build\\cv_detection\\cv_detection.egg-info\\SOURCES.txt'\r\n"}
+[6.419449] (cv_detection) StdoutLine: {'line': b"writing manifest file '..\\..\\build\\cv_detection\\cv_detection.egg-info\\SOURCES.txt'\r\n"}
+[6.420015] (cv_detection) StdoutLine: {'line': b'running build\r\n'}
+[6.420225] (cv_detection) StdoutLine: {'line': b'running build_py\r\n'}
+[6.420430] (cv_detection) StdoutLine: {'line': b'creating C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\r\n'}
+[6.420599] (cv_detection) StdoutLine: {'line': b'copying cv_detection\\colour_detector_oop.py -> C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\r\n'}
+[6.420701] (cv_detection) StdoutLine: {'line': b'copying cv_detection\\cv_node.py -> C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\r\n'}
+[6.421096] (cv_detection) StdoutLine: {'line': b'copying cv_detection\\qr_detector_oop.py -> C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\r\n'}
+[6.421591] (cv_detection) StdoutLine: {'line': b'copying cv_detection\\__init__.py -> C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\r\n'}
+[6.422638] (cv_detection) StdoutLine: {'line': b'running install\r\n'}
+[6.424123] (cv_detection) StdoutLine: {'line': b'running install_lib\r\n'}
+[6.473318] (-) TimerEvent: {}
+[6.482220] (cv_detection) StdoutLine: {'line': b'creating C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\r\n'}
+[6.482842] (cv_detection) StdoutLine: {'line': b'copying C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\\colour_detector_oop.py -> C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\r\n'}
+[6.497620] (cv_detection) StdoutLine: {'line': b'copying C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\\cv_node.py -> C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\r\n'}
+[6.500347] (cv_detection) StdoutLine: {'line': b'copying C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\\qr_detector_oop.py -> C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\r\n'}
+[6.503204] (cv_detection) StdoutLine: {'line': b'copying C:\\ros_ws\\build\\cv_detection\\build\\lib\\cv_detection\\__init__.py -> C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\r\n'}
+[6.505926] (cv_detection) StdoutLine: {'line': b'byte-compiling C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\\colour_detector_oop.py to colour_detector_oop.cpython-314.pyc\r\n'}
+[6.511587] (cv_detection) StdoutLine: {'line': b'byte-compiling C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\\cv_node.py to cv_node.cpython-314.pyc\r\n'}
+[6.515606] (cv_detection) StdoutLine: {'line': b'byte-compiling C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\\qr_detector_oop.py to qr_detector_oop.cpython-314.pyc\r\n'}
+[6.519768] (cv_detection) StdoutLine: {'line': b'byte-compiling C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection\\__init__.py to __init__.cpython-314.pyc\r\n'}
+[6.521476] (cv_detection) StdoutLine: {'line': b'running install_data\r\n'}
+[6.521997] (cv_detection) StdoutLine: {'line': b'creating C:\\ros_ws\\install\\cv_detection\\share\\ament_index\\resource_index\\packages\r\n'}
+[6.523380] (cv_detection) StdoutLine: {'line': b'copying resource\\cv_detection -> C:\\ros_ws\\install\\cv_detection\\share\\ament_index\\resource_index\\packages\r\n'}
+[6.524956] (cv_detection) StdoutLine: {'line': b'copying package.xml -> C:\\ros_ws\\install\\cv_detection\\share\\cv_detection\r\n'}
+[6.526410] (cv_detection) StdoutLine: {'line': b'running install_egg_info\r\n'}
+[6.574072] (-) TimerEvent: {}
+[6.586491] (cv_detection) StdoutLine: {'line': b'Copying ..\\..\\build\\cv_detection\\cv_detection.egg-info to C:\\ros_ws\\install\\cv_detection\\Lib\\site-packages\\cv_detection-0.0.0-py3.14.egg-info\r\n'}
+[6.638662] (cv_detection) StdoutLine: {'line': b'running install_scripts\r\n'}
+[6.675213] (-) TimerEvent: {}
+[6.787723] (-) TimerEvent: {}
+[6.902343] (-) TimerEvent: {}
+[6.978509] (cv_detection) StdoutLine: {'line': b'Installing cv_node-script.py script to C:\\ros_ws\\install\\cv_detection\\lib\\cv_detection\r\n'}
+[7.002185] (cv_detection) StdoutLine: {'line': b'Installing cv_node.exe script to C:\\ros_ws\\install\\cv_detection\\lib\\cv_detection\r\n'}
+[7.002481] (-) TimerEvent: {}
+[7.004385] (cv_detection) StdoutLine: {'line': b"writing list of installed files to 'C:\\ros_ws\\build\\cv_detection\\install.log'\r\n"}
+[7.057999] (cv_detection) CommandEnded: {'returncode': 0}
+[7.108032] (-) TimerEvent: {}
+[7.221346] (-) TimerEvent: {}
+[7.233583] (cv_detection) JobEnded: {'identifier': 'cv_detection', 'rc': 0}
+[7.236527] (-) EventReactorShutdown: {}

@@ -1,0 +1,13 @@
+[workspace]
+name = "ros_ws"
+channels = ["robostack-humble", "conda-forge"]
+platforms = ["win-64"]
+
+[dependencies]
+ros-humble-desktop = "*"
+colcon-common-extensions = "*"
+compilers = "*"
+cmake = "*"
+pkg-config = "*"
+opencv = "*"
+numpy = "*"

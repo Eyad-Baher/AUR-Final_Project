@@ -1,0 +1,38 @@
+running egg_info
+creating ..\..\build\cv_detection\cv_detection.egg-info
+writing ..\..\build\cv_detection\cv_detection.egg-info\PKG-INFO
+writing dependency_links to ..\..\build\cv_detection\cv_detection.egg-info\dependency_links.txt
+writing entry points to ..\..\build\cv_detection\cv_detection.egg-info\entry_points.txt
+writing requirements to ..\..\build\cv_detection\cv_detection.egg-info\requires.txt
+writing top-level names to ..\..\build\cv_detection\cv_detection.egg-info\top_level.txt
+writing manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+reading manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+writing manifest file '..\..\build\cv_detection\cv_detection.egg-info\SOURCES.txt'
+running build
+running build_py
+creating C:\ros_ws\build\cv_detection\build\lib\cv_detection
+copying cv_detection\colour_detector_oop.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+copying cv_detection\cv_node.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+copying cv_detection\qr_detector_oop.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+copying cv_detection\__init__.py -> C:\ros_ws\build\cv_detection\build\lib\cv_detection
+running install
+running install_lib
+creating C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\colour_detector_oop.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\cv_node.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\qr_detector_oop.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+copying C:\ros_ws\build\cv_detection\build\lib\cv_detection\__init__.py -> C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection
+byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\colour_detector_oop.py to colour_detector_oop.cpython-314.pyc
+byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\cv_node.py to cv_node.cpython-314.pyc
+byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\qr_detector_oop.py to qr_detector_oop.cpython-314.pyc
+byte-compiling C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection\__init__.py to __init__.cpython-314.pyc
+running install_data
+creating C:\ros_ws\install\cv_detection\share\ament_index\resource_index\packages
+copying resource\cv_detection -> C:\ros_ws\install\cv_detection\share\ament_index\resource_index\packages
+copying package.xml -> C:\ros_ws\install\cv_detection\share\cv_detection
+running install_egg_info
+Copying ..\..\build\cv_detection\cv_detection.egg-info to C:\ros_ws\install\cv_detection\Lib\site-packages\cv_detection-0.0.0-py3.14.egg-info
+running install_scripts
+Installing cv_node-script.py script to C:\ros_ws\install\cv_detection\lib\cv_detection
+Installing cv_node.exe script to C:\ros_ws\install\cv_detection\lib\cv_detection
+writing list of installed files to 'C:\ros_ws\build\cv_detection\install.log'

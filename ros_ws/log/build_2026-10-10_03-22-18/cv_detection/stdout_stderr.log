@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\executor\__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\__init__.py", line 120, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_ros\task\ament_python\build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\build.py", line 166, in build
+    temp_symlinks = self._symlinks_in_build(args, setup_py_data)
+  File "C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\build.py", line 401, in _symlinks_in_build
+    os.symlink(src, dst)
+    ~~~~~~~~~~^^^^^^^^^^
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\ros_ws\\src\\cv_detection\\setup.py' -> 'C:\\ros_ws\\build\\cv_detection\\setup.py'

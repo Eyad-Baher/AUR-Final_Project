@@ -1,0 +1,6 @@
+source;share\cv_detection\hook\pythonpath.ps1
+source;share\cv_detection\hook\pythonpath.bat
+source;share\cv_detection\hook\pythonpath.dsv
+source;share\cv_detection\hook\ament_prefix_path.ps1
+source;share\cv_detection\hook\ament_prefix_path.bat
+source;share\cv_detection\hook\ament_prefix_path.dsv

@@ -1,0 +1,114 @@
+[-1791591774927255552.000s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\ros_ws\\.pixi\\envs\\default\\Scripts\\colcon', 'build'][0m
+[-1791591774927255552.000s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x00000270549A1D10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x00000270549D8830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x00000270549D8830>>)[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\ros_ws'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extensions ['ignore', 'ignore_ament_install']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extension 'ignore'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extension 'ignore_ament_install'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extensions ['colcon_pkg']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extension 'colcon_pkg'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extensions ['colcon_meta']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extension 'colcon_meta'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extensions ['ros']
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\cv_detection) by extension 'ros'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\cv_detection' with type 'ros.ament_python' and name 'cv_detection'[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[-1791591774927255552.000s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_args' from command line to 'None'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_target' from command line to 'None'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_clean_first' from command line to 'False'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'cmake_force_configure' from command line to 'False'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'ament_cmake_args' from command line to 'None'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cv_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cv_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\ros_ws\\build\\cv_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\ros_ws\\install\\cv_detection', 'merge_install': False, 'path': 'C:\\ros_ws\\src\\cv_detection', 'symlink_install': False, 'test_result_base': None}[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[-1791591774927255552.000s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\ros_ws\src\cv_detection' with build type 'ament_python'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cv_detection', 'ament_prefix_path')
+[-1791591774927255552.000s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\ament_prefix_path.ps1'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\ament_prefix_path.bat'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\ament_prefix_path.dsv'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\ros_ws\src\cv_detection'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.task.python.build[0m [1;30mDEBUG[0m [32mAvailable setuptools commands: install_lib, bdist_dumb, build_py, bdist_wheel, editable_wheel, setopt, dist_info, install_scripts, sdist, bdist_egg, rotate, install_data, symlink_data, clean, easy_install, install_headers, build_scripts, bdist_rpm, install, egg_info, alias, check, develop, saveopts, build_clib, bdist, install_egg_info, build, build_ext[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\ros_ws\src\cv_detection': PIXI_PROMPT=(ros_ws) PYTHONPATH=C:\ros_ws\build\cv_detection\prefix_override;C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\ros_ws\install\cv_detection\Lib\site-packages;%PYTHONPATH% C:\ros_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ..\..\build\cv_detection build --build-base C:\ros_ws\build\cv_detection\build install --record C:\ros_ws\build\cv_detection\install.log --install-scripts $base/lib/cv_detection --single-version-externally-managed install_data[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'C:\ros_ws\src\cv_detection' returned '0': PIXI_PROMPT=(ros_ws) PYTHONPATH=C:\ros_ws\build\cv_detection\prefix_override;C:\ros_ws\.pixi\envs\default\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\ros_ws\install\cv_detection\Lib\site-packages;%PYTHONPATH% C:\ros_ws\.pixi\envs\default\python.exe -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ..\..\build\cv_detection build --build-base C:\ros_ws\build\cv_detection\build install --record C:\ros_ws\build\cv_detection\install.log --install-scripts $base/lib/cv_detection --single-version-externally-managed install_data[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection' for CMake module files
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection' for CMake config files
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection\bin'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection\bin'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection\lib\pkgconfig\cv_detection.pc'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection\Lib\site-packages'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cv_detection', 'pythonpath')
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\pythonpath.ps1'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\pythonpath.bat'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\ros_ws\install\cv_detection\share\cv_detection\hook\pythonpath.dsv'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'C:\ros_ws\install\cv_detection\Scripts'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cv_detection)
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\ros_ws\install\cv_detection\share\cv_detection\package.ps1'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'C:\ros_ws\install\cv_detection\share\cv_detection\package.bat'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'C:\ros_ws\install\cv_detection\share\cv_detection\package.dsv'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(C:\ros_ws\install\cv_detection\share\colcon-core\packages\cv_detection)
+[-1791591774927255552.000s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[-1791591774927255552.000s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[-1791591774927255552.000s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1791591774927255552.000s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\ros_ws\install\local_setup.ps1'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\ros_ws\install\_local_setup_util_ps1.py'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\ros_ws\install\setup.ps1'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'C:\ros_ws\install\local_setup.bat'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'C:\ros_ws\install\_local_setup_util_bat.py'
+[-1791591774927255552.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'C:\ros_ws\install\setup.bat'
