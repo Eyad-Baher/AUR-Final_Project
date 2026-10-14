@@ -48,6 +48,7 @@ class QRDecoder:
             self.missing_count = 0
 
             for payload, bbox in zip(self.res, self.points):
+                print("RAW PAYLOAD:", repr(payload))
                 x, y = self.parse_QR_data(payload)
                 if x is None:
                     continue

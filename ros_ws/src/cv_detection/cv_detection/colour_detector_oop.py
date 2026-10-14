@@ -2,10 +2,9 @@ import cv2
 import numpy as np
 
 class ColorTracker():
-
-    def __init__(self):
+    def __init__(self, open_camera=True):                       
         self.video_path = 0
-        self.cap = cv2.VideoCapture(self.video_path)
+        self.cap = cv2.VideoCapture(self.video_path) if open_camera else None  
 
         self.LOWER_BLUE = np.array([100, 100, 50])
         self.UPPER_BLUE = np.array([130, 255, 255])
@@ -75,7 +74,20 @@ class ColorTracker():
 
         self.cap.release()
         cv2.destroyAllWindows()
+    def process_frame(self, frame):
 
+        blur = cv2.GaussianBlur(frame, (5, 5), 0)
+        hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
+
+        mask_blue = cv2.inRange(hsv, self.LOWER_BLUE, self.UPPER_BLUE)
+        mask_red = cv2.bitwise_or(
+            cv2.inRange(hsv, self.LOWER_RED1, self.UPPER_RED1),
+            cv2.inRange(hsv, self.LOWER_RED2, self.UPPER_RED2),
+        )
+
+        blue_pts, blue_clean = self.process_mask(mask_blue, frame)
+        red_pts, red_clean = self.process_mask(mask_red, frame)
+        return blue_pts, red_pts, blue_clean, red_clean
 
 if __name__ == "__main__":
     tracker = ColorTracker()
