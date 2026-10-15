@@ -16,7 +16,7 @@ class CVNode(Node):
         self.qr_detector = QRDecoder()
         self.qr_detector.callback = self.publish_qr
 
-        self.cap = cv2.VideoCapture(0)
+        self.cap = cv2.VideoCapture("http://192.168.1.11:8080/video")
         if not self.cap.isOpened():
             self.get_logger().error('Camera could not be opened')
 

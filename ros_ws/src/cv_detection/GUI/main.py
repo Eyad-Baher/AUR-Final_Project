@@ -71,7 +71,7 @@ class RobotConsole(QWidget):
         self.color_label = QLabel("Blue: -  Red: -")
 #------------------------------------------------------------------------------
         # Create label for camera feed
-        self.stream = StreamWidget(0)#url of ip streaming
+        self.stream = StreamWidget("http://192.168.1.11:8080/video")#url of ip streaming
         self.stream.qr_detected.connect(self.Qr_code_signal)    # NEW
         self.stream.color_detected.connect(self.color_signal)
         self.color_signal.connect(self.update_colors)

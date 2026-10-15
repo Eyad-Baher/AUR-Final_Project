@@ -3,7 +3,8 @@ import numpy as np
 
 class ColorTracker():
     def __init__(self, open_camera=True):                       
-        self.video_path = 0
+        self.video_path = "http://192.168.1.11:8080/video"
+
         self.cap = cv2.VideoCapture(self.video_path) if open_camera else None  
 
         self.LOWER_BLUE = np.array([100, 100, 50])
